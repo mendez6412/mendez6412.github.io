@@ -1,0 +1,23 @@
+body {
+  background: rgba(0, 100, 255, .3);
+}
+
+header {
+  padding: 80px 0 150px;
+  background: url("../../Pictures/rocky.jpg") no-repeat right top;
+}
+
+header .twelve {
+  background: rgba(0, 0, 0, .4)
+}
+
+header {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+header .me {
+  padding-top: 0;
+  border-radius: 1rem;
+}
