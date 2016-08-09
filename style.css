@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+
+.nms, .stars, .jup {
+  position: relative;
+  opacity: .75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nms {
+  background-image: url("../../Pictures/landscapes/gc.jpg");
+  min-height: 100%;
+}
+
+.stars {
+  background-image: url("../../Pictures/landscapes/gcbeth.jpg");
+  min-height: 600px;
+}
+
+.jup {
+  background-image: url("../../Pictures/landscapes/green.jpg");
+  min-height: 600px;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.boxed {
+  background-color: #111;
+  color: #fff;
+  padding: 14px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+}
+
+.quote{
+  padding: 50px 80px;
+  text-align: justify;
+  background-color: #fff;
+}
