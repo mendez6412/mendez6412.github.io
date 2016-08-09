@@ -39,6 +39,7 @@ html, body {
 
 .boxed {
   background-color: #111;
+  opacity: .85;
   color: #fff;
   padding: 14px;
   font-size: 25px;
