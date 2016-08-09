@@ -14,17 +14,17 @@ html, body {
 }
 
 .nms {
-  background-image: url("../../Pictures/landscapes/gc.jpg");
+  background-image: url("images/gc.jpg");
   min-height: 100%;
 }
 
 .stars {
-  background-image: url("../../Pictures/landscapes/gcbeth.jpg");
+  background-image: url("images/gcbeth.jpg");
   min-height: 600px;
 }
 
 .jup {
-  background-image: url("../../Pictures/landscapes/green.jpg");
+  background-image: url("images/green.jpg");
   min-height: 600px;
 }
 
