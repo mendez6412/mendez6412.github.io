@@ -1,0 +1,83 @@
+body { padding-bottom: 70px; }
+
+.intro-header {
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: steelblue;
+    background-size: cover;
+    height: 46.5em;
+    color: #f8f8f8;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 4em;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.social-links{
+  color: #f8f8f8;
+  a{
+    color: #3d3d3d;
+    font-size: 4em;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+  }
+  a:link{
+    color: steelblue;
+  }
+  a:visited{
+    color: steelblue;
+  }
+  .github:hover{color: slategrey;}
+  .contact:hover{color: mediumturquoise;}
+  .linkedin:hover{color:#0177B5;}
+  .resume:hover{color: mediumpurple;}
+}
+
+.section-divider {
+  position: relative;
+  opacity: .65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.media {
+  img{
+    width: 32em;
+    height: 18em;
+    border-style: solid;
+    border-width: thin;
+  }
+}
+
+.contact-information {
+  text-align: center;
+}
+
+#gc {
+  background-image: url("../img/gc.jpg");
+  height: 60em;
+}
+
+#beach {
+  background-image: url("../img/beach.jpg");
+  height: 60em;
+}

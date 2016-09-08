@@ -1,62 +1,74 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  color: #777;
-}
+body {
+  padding-bottom: 70px; }
 
-.nms, .stars, .jup {
+.intro-header {
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: steelblue;
+  background-size: cover;
+  height: 46.5em;
+  color: #f8f8f8; }
+
+.navbar {
+  text-align: center; }
+
+.intro-message {
   position: relative;
-  opacity: .75;
+  padding-top: 20%;
+  padding-bottom: 20%; }
+
+.intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 4em; }
+
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
+
+.social-links {
+  color: #f8f8f8; }
+  .social-links a {
+    color: #3d3d3d;
+    font-size: 4em;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s; }
+  .social-links a:link {
+    color: steelblue; }
+  .social-links a:visited {
+    color: steelblue; }
+  .social-links .github:hover {
+    color: slategrey; }
+  .social-links .contact:hover {
+    color: mediumturquoise; }
+  .social-links .linkedin:hover {
+    color: #0177B5; }
+  .social-links .resume:hover {
+    color: mediumpurple; }
+
+.section-divider {
+  position: relative;
+  opacity: .65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
-.nms {
-  background-image: url("../images/gc.jpg");
-  min-height: 100%;
-}
+.media img {
+  width: 32em;
+  height: 18em;
+  border-style: solid;
+  border-width: thin; }
 
-.stars {
-  background-image: url("../images/gcbeth.jpg");
-  min-height: 600px;
-}
+.contact-information {
+  text-align: center; }
 
-.jup {
-  background-image: url("../images/green.jpg");
-  min-height: 600px;
-}
+#gc {
+  background-image: url("../img/gc.jpg");
+  height: 60em; }
 
-.text {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
+#beach {
+  background-image: url("../img/beach.jpg");
+  height: 60em; }
 
-.boxed {
-  background-color: #111;
-  opacity: .85;
-  color: #fff;
-  padding: 14px;
-  font-size: 25px;
-  letter-spacing: 2px;
-  border-radius: 8px;
-}
-
-.quote{
-  padding: 50px 80px;
-  text-align: justify;
-  background-color: #fff;
-}
-
-#me {
-  padding: 10px;
-  border-radius: 2em;
-  margin: 0 auto;
-  opacity: .75;
-  align-self: center;
-}
+/*# sourceMappingURL=style.css.map */
