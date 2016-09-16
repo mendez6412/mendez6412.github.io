@@ -1,11 +1,32 @@
-body { padding-bottom: 70px; }
+body {
+  padding-bottom: 70px;
+  position: relative;
+}
+
+#top-nav {
+  background: transparent;
+  border-width: 0px;
+  p {
+    color: #f8f8f8;
+  }
+  a {
+    color: #f8f8f8;
+  }
+  a:hover {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  }
+  .ignore {
+    visibility: hidden;
+    width: 0%;
+  }
+}
 
 .intro-header {
-    padding-bottom: 50px;
+    // padding-bottom: 50px;
     text-align: center;
     background-color: steelblue;
     background-size: cover;
-    height: 46.5em;
+    height: 47em;
     color: #f8f8f8;
 }
 
@@ -46,13 +67,13 @@ body { padding-bottom: 70px; }
   }
   .github:hover{color: slategrey;}
   .contact:hover{color: mediumturquoise;}
-  .linkedin:hover{color:#0177B5;}
+  .linkedin:hover{color:#000000;}
   .resume:hover{color: mediumpurple;}
 }
 
 .section-divider {
   position: relative;
-  opacity: .85;
+  opacity: .95;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

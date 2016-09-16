@@ -1,12 +1,25 @@
 body {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  position: relative; }
+
+#top-nav {
+  background: transparent;
+  border-width: 0px; }
+  #top-nav p {
+    color: #f8f8f8; }
+  #top-nav a {
+    color: #f8f8f8; }
+  #top-nav a:hover {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
+  #top-nav .ignore {
+    visibility: hidden;
+    width: 0%; }
 
 .intro-header {
-  padding-bottom: 50px;
   text-align: center;
   background-color: steelblue;
   background-size: cover;
-  height: 46.5em;
+  height: 47em;
   color: #f8f8f8; }
 
 .navbar {
@@ -42,13 +55,13 @@ body {
   .social-links .contact:hover {
     color: mediumturquoise; }
   .social-links .linkedin:hover {
-    color: #0177B5; }
+    color: #000000; }
   .social-links .resume:hover {
     color: mediumpurple; }
 
 .section-divider {
   position: relative;
-  opacity: .85;
+  opacity: .95;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

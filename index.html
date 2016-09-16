@@ -5,16 +5,38 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <title>TM Portfolio</title>
+    <title>Tommy Mendez</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="navbar-items">
+    <nav class="navbar navbar-default navbar-fixed-top" id="top-nav">
+      <div class="continer-fluid">
+        <!-- <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> -->
+        <div id="navbar-items">
+            <ul class="nav navbar-nav">
+              <li><p class="navbar-text magic">TM</p></li>
+              <li class="ignore"><a href="#no-spy-first"></a></li>
+              <li class="test"><a class="navbar-link magic" href="#projects">Projects</a></li>
+              <li class="ignore"><a href="#no-spy-second"></a></li>
+              <!-- <li><p class="navbar-link magic" href="#gc"></p></li>
+              <li><p class="navbar-link magic" href="#beach"></p></li> -->
+            </ul>
+        </div>
+      </div>
+    </nav>
     <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
         <div class="social-links">
           <ul class="list-inline">
             <li><a class="linkedin" data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/tomas-mendez-22354959" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
             <li><a class="github" data-toggle="tooltip" title="GitHub" href="https://github.com/mendez6412" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a class="resume" data-toggle="tooltip" title="Resume" href="https://github.com/mendez6412/mendez6412.github.io/blob/master/Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+            <li><a class="resume" data-toggle="tooltip" title="Resume" href="https://github.com/mendez6412/mendez6412.github.io/blob/master/Resume.pdf" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></li>
             <li><a class="contact" data-toggle="tooltip" title="Email" href="mailto:mendez6412@gmail.com?Subject=Inquiry" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
           </ul>
         </div>
@@ -33,7 +55,7 @@
       </div>
     </div>
     <div class="section-divider" id="gc">
-      <div class="container">
+      <div class="container" id="no-spy-first">
         <div class="row">
           <div class="col-lg-12">
           </div>
@@ -99,7 +121,7 @@
       </div>
     </div>
     <div class="section-divider" id="beach">
-      <div class="container">
+      <div class="container" id="no-spy-second">
         <div class="row">
           <div class="col-lg-12">
           </div>
@@ -111,19 +133,21 @@
         <div class="col-lg-10 col-lg-offset-1">
           <div class="page-header">
             <h1>About Me</h1>
-            <p>I am an NC web developer located in the Triangle.  I have experience creating web applications from the ground up, working primarily in Python and JavaScript.  I am looking for opportunities to expand my frontend and backend development skills.</p>
-            <hr>
-            <div class="contact-information">
-              <h4>Tomas "Tommy" Mendez</h4>
-              <h4>Durham, NC</h4>
-              <h4>mendez6412@gmail.com</h4>
-            </div>
-            <br>
           </div>
+          <p>I am an NC web developer located in the Triangle.  I have experience creating web applications from the ground up, working primarily in Python and JavaScript.  I am looking for opportunities to expand my frontend and backend development skills.</p>
+          <hr>
+          <div class="contact-information">
+            <p><b>Tomas "Tommy" Mendez</b></p>
+            <p>Durham, NC</p>
+            <p>mendez6412@gmail.com</p>
+          </div>
+          <br>
         </div>
       </div>
+    </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/tooltip.js"></script>
+  <script src="js/scrolly.js"></script>
   </body>
 </html>
