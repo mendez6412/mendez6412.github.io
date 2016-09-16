@@ -10,6 +10,7 @@ body {
   #top-nav a {
     color: #f8f8f8; }
   #top-nav a:hover {
+    background-color: transparent;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
   #top-nav .ignore {
     visibility: hidden;
