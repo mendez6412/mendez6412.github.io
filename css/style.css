@@ -4,7 +4,8 @@ body {
 
 #top-nav {
   background: transparent;
-  border-width: 0px; }
+  border-width: 0px;
+  font-size: 1.5em; }
   #top-nav p {
     color: #f8f8f8; }
   #top-nav a {
@@ -16,11 +17,18 @@ body {
     visibility: hidden;
     width: 0%; }
 
+#about {
+  height: 80vh; }
+
+#bottom-nav {
+  vertical-align: middle;
+  height: 10vh; }
+
 .intro-header {
   text-align: center;
   background-color: steelblue;
   background-size: cover;
-  height: 47em;
+  height: 90vh;
   color: #f8f8f8; }
 
 .navbar {
@@ -43,7 +51,7 @@ body {
   color: #f8f8f8; }
   .social-links a {
     color: #3d3d3d;
-    font-size: 4em;
+    font-size: 7vh;
     -webkit-transition: color .3s;
     -moz-transition: color .3s;
     transition: color .3s; }
